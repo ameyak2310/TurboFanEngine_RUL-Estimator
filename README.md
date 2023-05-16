@@ -1,10 +1,12 @@
 # Remaining Usefull Life Estimator
 
 Turbofan Engine
+<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true" width="48">
+
 ![Turbofan Cross-section](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true)
 
 Jet propulsion Cycle
-![Jet Propulsion Cycle](rhttps://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true)
+![Jet Propulsion Cycle](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true)
 
 ## Dataset Description
 Ref : NASA's Open Data Portal
