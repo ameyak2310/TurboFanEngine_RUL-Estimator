@@ -1,14 +1,15 @@
 # Remaining Usefull Life Estimator
-for Turbofan Engine
 
-image.png
+Turbofan Engine
+![Turbofan Cross-section](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true)
 
 Jet propulsion Cycle
-image.png
+![Jet Propulsion Cycle](rhttps://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true)
 
 ## Dataset Description
 Ref : NASA's Open Data Portal
 
+#### Experimental Scenario
 Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
 
 The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective of the competition is to predict the number of remaining operational cycles before failure in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate. Also provided a vector of true Remaining Useful Life (RUL) values for the test data.
@@ -44,41 +45,17 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 |       25       | W31                  |  HPT Coolant Bleed                 |    lbm/s   |
 |       26       | W32                  |  LPT Coolant Bleed                 |    lbm/s   |
 
-Operating Conditions
+#### Operating Conditions
 
-
-|   Data set     |   Train Trajectory   |   Test Trajectory    |    Conditions   |    Fault Modes      |
-|:--------------:|:---------------------|:---------------------|:----------------|---------------------|
-|    FD001       | 100                  | 100                  | One (Sealevel)  |ONE (HPC Degradation)|
-|    FD002       | time_in_cycles       |  Cycle number        |      --         |
-|    FD003       | setting_1            | Altitude             |      ft         |
-|    FD004       | setting_2            |  Mach Number         |      --         |
-
-Data Set: FD001
-Train trjectories: 100
-Test trajectories: 100
-Conditions: ONE (Sea Level)
-Fault Modes: ONE (HPC Degradation)
-
-Data Set: FD002
-Train trjectories: 260
-Test trajectories: 259
-Conditions: SIX
-Fault Modes: ONE (HPC Degradation)
-
-Data Set: FD003
-Train trjectories: 100
-Test trajectories: 100
-Conditions: ONE (Sea Level)
-Fault Modes: TWO (HPC Degradation, Fan Degradation)
-
-Data Set: FD004
-Train trjectories: 248
-Test trajectories: 249
-Conditions: SIX
-Fault Modes: TWO (HPC Degradation, Fan Degradation)
+|   Data set     |   Train Trajectory   |   Test Trajectory    |    Conditions   |    Fault Modes                       |
+|:--------------:|:---------------------|:---------------------|:----------------|--------------------------------------|
+|    FD001       | 100                  | 100                  | One (Sealevel)  |ONE (HPC Degradation)                 |
+|    FD002       | 260                  | 259                  | SIX             |ONE (HPC Degradation)                 |
+|    FD003       | 100                  | 100                  | One (Sealevel)  |TWO (HPC Degradation, Fan Degradation)|
+|    FD004       | 248                  | 249                  | SIX             |TWO (HPC Degradation, Fan Degradation)|
 
 
 ## Reference:
 1. A. Saxena, K. Goebel, D. Simon, and N. Eklund, ‘Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation’, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
-2. https://www.nasa.gov/content/diagnostics-prognostics
+2. D. Frederick, J. DeCastro, and J. Litt, "User’s Guide for the Commercial Modular Aero-Propulsion System Simulation (C- MAPSS)," NASA/ARL, Technical Manual TM2007-215026, 2007.
+3. https://www.nasa.gov/content/diagnostics-prognostics
