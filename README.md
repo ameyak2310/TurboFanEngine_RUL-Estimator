@@ -15,7 +15,7 @@ The engine is operating normally at the start of each time series, and develops 
 
 The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle, each column is a different variable. The columns correspond to:
 
-| **Sr.   No. ** | ** Column   Names ** |             ** Data **             | ** Units** |
+| Sr.   No.  | ** Column   Names ** |             ** Data **             | ** Units** |
 |:--------------:|:--------------------:|:----------------------------------:|:----------:|
 |        1       | unit_number          | Unit Number                        |      --    |
 |        2       | time_in_cycles       |  Cycle number                      |      --    |
