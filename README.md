@@ -9,14 +9,13 @@ Engine degradation simulation was carried out using C-MAPSS. Four different were
 
 In this dataset the goal is to predict the remaining useful life (RUL) of each engine in the test dataset. RUL is equivalent of number of flights remained for the engine after the last datapoint in the test dataset. 
 
-## Turbofan Engine
+### Turbofan Engine
 
-<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true" width="200">
+<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true" width="500">
 
-![Turbofan Cross-section](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true)
+### Jet propulsion Cycle
 
-## Jet propulsion Cycle
-![Jet Propulsion Cycle](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true)
+<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true" width="500">
 
 ## Data Set 
 Ref : 
