@@ -1,15 +1,25 @@
 # Remaining Usefull Life Estimator
 
-Turbofan Engine
-<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true" width="48">
+## Description
+Prognostics and health management is an important topic in industry for predicting state of assets to avoid downtime and failures. This data set is the Kaggle version of the very well known public data set for asset degradation modeling from NASA. It includes Run-to-Failure simulated data from turbo fan jet engines.
+
+Engine degradation simulation was carried out using C-MAPSS. Four different were sets simulated under different combinations of operational conditions and fault modes. Records several sensor channels to characterize fault evolution. The data set was provided by the Prognostics CoE at NASA Ames.
+
+## Prediction Goal
+
+In this dataset the goal is to predict the remaining useful life (RUL) of each engine in the test dataset. RUL is equivalent of number of flights remained for the engine after the last datapoint in the test dataset. 
+
+## Turbofan Engine
+
+<img src="https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true" width="200">
 
 ![Turbofan Cross-section](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/TurboFancrossSection.png?raw=true)
 
-Jet propulsion Cycle
+## Jet propulsion Cycle
 ![Jet Propulsion Cycle](https://github.com/ameyak2310/TurboFanEngine_RUL-Estimator/blob/main/References/JetPropulsionCycle.png?raw=true)
 
-## Dataset Description
-Ref : NASA's Open Data Portal
+## Data Set 
+Ref : 
 
 #### Experimental Scenario
 Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
@@ -60,4 +70,4 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 ## Reference:
 1. A. Saxena, K. Goebel, D. Simon, and N. Eklund, ‘Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation’, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
 2. D. Frederick, J. DeCastro, and J. Litt, "User’s Guide for the Commercial Modular Aero-Propulsion System Simulation (C- MAPSS)," NASA/ARL, Technical Manual TM2007-215026, 2007.
-3. https://www.nasa.gov/content/diagnostics-prognostics
+3. NASA's Open Data Portal (https://www.nasa.gov/content/diagnostics-prognostics)
