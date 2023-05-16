@@ -15,36 +15,34 @@ The engine is operating normally at the start of each time series, and develops 
 
 The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle, each column is a different variable. The columns correspond to:
 
--------------------------------------------------------------------------
-Sr. No.	Column Names	    Data	                            Units
--------------------------------------------------------------------------
-1	    unit_number	        Unit Number	                        --
-2	    time_in_cycles	    Cycle number	                    --
-3	    setting_1	        Altitude	                        ft
-4	    setting_2	        Mach Number	                        --
-5	    TRA	                Throttle resolver angle	            degrees
-6	    T2	                Total temperature at fan inlet	    deg R
-7	    T24	                Total temperature at LPC inlet	    deg R
-8	    T30	                Total temperature at HPC inlet	    deg R
-9	    T50	                Total temperature at LPT inlet	    deg R
-10	    P2	                Pressure at fan inlet	            psia
-11	    P15	                Total pressure in bypass-duct	    psia
-12	    P30	                Total pressure at HPC outlet	    psia
-13	    Nf	                Physical fan speed	                rpm
-14	    Nc	                Physical core speed	                rpm
-15	    epr	                Engine pressure ratio (P50/P2)	    --
-16	    Ps30	            Static pressure at HPC outlet	    psia
-17	    phi	                Ratio of fuel flow to Ps30	        pps/psia
-18	    NRf	                Corrected fan speed	                rpm
-19	    NRc	                Corrected core speed	            rpm
-20	    BPR	                Bypass Ratio	                    --
-21	    farB            	Burner fuel-air ratio	            --
-22	    htBleed	            Bleed Enthalpy	                    --
-23	    Nf_dmd	            Demanded fan speed	                rpm
-24	    PCNfR_dmd	        Demanded corrected fan speed	    rpm
-25	    W31	                HPT Coolant Bleed	                lbm/s
-26	    W32	                LPT Coolant Bleed	                lbm/s
---------------------------------------------------------------------------
+| **Sr.   No. ** | ** Column   Names ** |             ** Data **             | ** Units** |
+|:--------------:|:--------------------:|:----------------------------------:|:----------:|
+|        1       | unit_number          | Unit Number                        |      --    |
+|        2       | time_in_cycles       |  Cycle number                      |      --    |
+|        3       | setting_1            | Altitude                           |      ft    |
+|        4       | setting_2            |  Mach Number                       |      --    |
+|        5       | TRA                  |  Throttle resolver angle           |   degrees  |
+|        6       | T2                   |  Total temperature at fan   inlet  |    deg R   |
+|        7       | T24                  |  Total temperature at LPC   inlet  |    deg R   |
+|        8       | T30                  |  Total temperature at HPC   inlet  |    deg R   |
+|        9       | T50                  |  Total temperature at LPT   inlet  |    deg R   |
+|       10       | P2                   |  Pressure at fan inlet             |     psia   |
+|       11       | P15                  |  Total pressure in bypass-duct     |     psia   |
+|       12       | P30                  |  Total pressure at HPC outlet      |     psia   |
+|       13       | Nf                   |  Physical fan speed                |     rpm    |
+|       14       | Nc                   |  Physical core speed               |     rpm    |
+|       15       | epr                  |  Engine pressure ratio   (P50/P2)  |      --    |
+|       16       | Ps30                 |  Static pressure at HPC outlet     |     psia   |
+|       17       | phi                  |  Ratio of fuel flow to Ps30        |   pps/psia |
+|       18       | NRf                  |  Corrected fan speed               |     rpm    |
+|       19       | NRc                  |  Corrected core speed              |     rpm    |
+|       20       | BPR                  |  Bypass Ratio                      |      --    |
+|       21       | farB                 |  Burner fuel-air ratio             |      --    |
+|       22       | htBleed              |  Bleed Enthalpy                    |      --    |
+|       23       | Nf_dmd               |  Demanded fan speed                |     rpm    |
+|       24       | PCNfR_dmd            |  Demanded corrected fan speed      |     rpm    |
+|       25       | W31                  |  HPT Coolant Bleed                 |    lbm/s   |
+|       26       | W32                  |  LPT Coolant Bleed                 |    lbm/s   |
 
 Operating Conditions
 
