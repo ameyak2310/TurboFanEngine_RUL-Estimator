@@ -46,6 +46,14 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 
 Operating Conditions
 
+
+|   Data set     |   Train Trajectory   |   Test Trajectory    |    Conditions   |    Fault Modes      |
+|:--------------:|:---------------------|:---------------------|:----------------|---------------------|
+|    FD001       | 100                  | 100                  | One (Sealevel)  |ONE (HPC Degradation)|
+|    FD002       | time_in_cycles       |  Cycle number        |      --         |
+|    FD003       | setting_1            | Altitude             |      ft         |
+|    FD004       | setting_2            |  Mach Number         |      --         |
+
 Data Set: FD001
 Train trjectories: 100
 Test trajectories: 100
