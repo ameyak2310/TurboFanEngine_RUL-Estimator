@@ -29,9 +29,9 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 
 |   Sr.   No.    |    Column   Names    |                Data                |    Units   |
 |:--------------:|:---------------------|:-----------------------------------|:----------:|
-|        1       | unit_number          | Unit Number                        |      --    |
+|        1       | unit_number          |  Unit Number                       |      --    |
 |        2       | time_in_cycles       |  Cycle number                      |      --    |
-|        3       | setting_1            | Altitude                           |      ft    |
+|        3       | setting_1            |  Altitude                          |      ft    |
 |        4       | setting_2            |  Mach Number                       |      --    |
 |        5       | TRA                  |  Throttle resolver angle           |   degrees  |
 |        6       | T2                   |  Total temperature at fan   inlet  |    deg R   |
@@ -59,7 +59,7 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 #### Operating Conditions
 
 |   Data set     |   Train Trajectory   |   Test Trajectory    |    Conditions   |    Fault Modes                       |
-|:--------------:|:---------------------|:---------------------|:----------------|--------------------------------------|
+|:--------------:|:---------------------|:---------------------|:----------------|:-------------------------------------|
 |    FD001       | 100                  | 100                  | One (Sealevel)  |ONE (HPC Degradation)                 |
 |    FD002       | 260                  | 259                  | SIX             |ONE (HPC Degradation)                 |
 |    FD003       | 100                  | 100                  | One (Sealevel)  |TWO (HPC Degradation, Fan Degradation)|
